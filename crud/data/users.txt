@@ -1,0 +1,2 @@
+admin,21232f297a57a5a743894a0e4a801fc3,admin
+chinmoy,f88ed22b8ef52a487b8c2d6fa8768ce7,editor

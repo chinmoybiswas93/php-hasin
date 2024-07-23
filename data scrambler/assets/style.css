@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+}
+
+a {
+  color: #000;
+}
+a:hover {
+  color: #5208ff;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+}
+
+form {
+  width: 90%;
+  margin: auto;
+}
+
+input,
+textarea,
+label {
+  width: 100%;
+  padding: 15px;
+}
