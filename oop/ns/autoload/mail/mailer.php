@@ -6,9 +6,6 @@ class Mailer
 {
     public function sendMail()
     {
-        echo 'Sending Mail';
+        echo "Sending Mail\n";
     }
 }
-
-// $mailer = new Mailer();
-// $mailer->sendMail();

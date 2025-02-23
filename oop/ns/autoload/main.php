@@ -1,6 +1,5 @@
 <?php
 namespace CloudStorage;
-
 require_once 'autoload.php';
 
 use \CloudStorage\Mail\Mailer;
@@ -9,17 +8,15 @@ class Main
 {
     public function __construct()
     {
-        $mailer = new Mailer();
+        $mailer = new Mailer(); //autoloading file from main.php
         $mailer->sendMail();
 
         echo "\n";
 
-        $jpeg = new Jpeg();
-
-        // var_dump($jpeg);
+        $jpeg = new Jpeg(); //autoloading file from main.php
         $jpeg->getResolution();
 
     }
 }
 
-$main = new Main();
+// $main = new Main();
