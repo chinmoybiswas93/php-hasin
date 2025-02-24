@@ -1,13 +1,16 @@
 <?php
 class ServerLoadException extends Exception
 {
-};
+}
+;
 class NetworkLoadException extends Exception
 {
-};
+}
+;
 class DiskfullException extends Exception
 {
-};
+}
+;
 
 interface NetworkStorage
 {
@@ -75,7 +78,8 @@ class ConnectionPool
     private $storage;
     function __construct()
     {
-        $this->storage = array();;
+        $this->storage = array();
+        ;
     }
 
     function addStorage($storage)
